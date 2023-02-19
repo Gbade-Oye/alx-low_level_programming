@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+    srand(time(0));
+    n = rand() % 10 + 1; // generate a random number between 1 and 10
+    printf("Random number: %d\n", n); // print the random number to the console
+    return 0;
+}
