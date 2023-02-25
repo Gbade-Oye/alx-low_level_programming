@@ -1,12 +1,16 @@
 #include "main.h"
 
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
 int main(void)
 {
-	print_alphabet();
+	int r;
+
+	r = _islower('H');
+	_putchar(r + '0');  /* output: 0 */
+	r = _islower('o');
+	_putchar(r + '0');  /* output: 1 */
+	r = _islower(108);
+	_putchar(r + '0');  /* output: 1 */
+	_putchar('\n');
+
 	return (0);
 }
