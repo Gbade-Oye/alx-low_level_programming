@@ -5,13 +5,13 @@ int _putchar(char c);
 
 #endif /* MAIN_H */
 
-#ifndef 1-MAIN_H
-#define 1-MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 void print_alphabet(void);
 
-#endif /* 1-MAIN_H */
+#endif /* MAIN_H */
 
 #ifndef MAIN_H
 #define MAIN_H
