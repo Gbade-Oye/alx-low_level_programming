@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int add(int a, int b);
-int _putchar(char c);
+/* Function that prints all natural numbers from n to 98 */
+void print_to_98(int n);
 
 #endif /* MAIN_H */
