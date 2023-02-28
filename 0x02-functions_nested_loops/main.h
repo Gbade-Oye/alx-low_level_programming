@@ -1,11 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* included libraries */
+/**
+* main.h - Header file containing function prototypes for 9-times_table.c
+* Author: Gbade Oye
+* Date: 28.02.2023
+*/
+
+/* Included libraries */
 #include <unistd.h>
 
-/* function prototypes */
+/* Function prototypes */
+void times_table(void);
 int _putchar(char c);
-void jack_bauer(void);
 
 #endif /* MAIN_H */
