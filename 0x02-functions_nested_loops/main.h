@@ -1,10 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* _putchar - writes the character c to stdout */
-int _putchar(char c);
+/* included libraries */
+#include <unistd.h>
 
-/* print_last_digit - prints the last digit of a number and returns its value */
-int print_last_digit(int n);
+/* function prototypes */
+int _putchar(char c);
+void jack_bauer(void);
 
 #endif /* MAIN_H */
