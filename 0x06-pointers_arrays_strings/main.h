@@ -1,8 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+/* putchar - writes the character c to stdout */
+int _putchar(char c);
 
-char *cap_string(char *);
+/* leet - encodes a string into 1337 */
+char *leet(char *);
 
 #endif /* MAIN_H */
