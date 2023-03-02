@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char *string_toupper(char *str);
+#include <stdio.h>
+
+char *cap_string(char *);
 
 #endif /* MAIN_H */
