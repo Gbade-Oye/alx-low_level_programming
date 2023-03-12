@@ -1,7 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
+void print_diagsums(int *a, int size);
 int _putchar(char c);
-void set_string(char **s, char *to);
 
 #endif /* MAIN_H */
