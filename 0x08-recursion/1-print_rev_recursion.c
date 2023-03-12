@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
-* _print_rev_recursion - Prints a string in reverse
-* @s: The string to print
-*/
+ * _print_rev_recursion - Prints a string in reverse
+ * @s: The string to print
+ *
+ * Return: void
+ */
+
 void _print_rev_recursion(char *s)
 {
 	/* Base case: If the string is empty, return */
@@ -11,7 +14,7 @@ void _print_rev_recursion(char *s)
 		return;
 
 	/* Recursive case: Print the last character of the string, then call
-		the function again with the remaining string */
+	 * the function again with the remaining string */
 	_print_rev_recursion(s + 1);
 	_putchar(*s);
 }
